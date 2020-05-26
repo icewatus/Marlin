@@ -1,4 +1,4 @@
-# For of Marlin for the Two Trees Sapphire Plus 3D printer
+# Fork of Marlin for the Two Trees Sapphire Plus 3D printer
 
 LCD Scaler code used from this blog post:  https://escope.de/posts/sapphire-pro-marlin/
 
