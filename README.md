@@ -4,7 +4,7 @@ LCD Scaler code used from this blog post:  https://escope.de/posts/sapphire-pro-
 
 Bits and pieces borrowed from the MKS Marlin 2.0 repo: https://github.com/makerbase-mks/Mks-Robin-Nano-Marlin2.0-Firmware
 
-The TMC2208 drivers are connected to the 2:nd extruder steppers DIR-/ENABLE-/STEP-pins modded to use UART in one-wire-mode with custom cables soldered with a 1K resitor on the TX line.
+Current configuration assumes that the TMC2208 drivers are connected to the 2:nd extruder steppers ENABLE, STEP and DIR pins modded to use UART in one-wire-mode per driver with custom cables soldered with a 1K resitor on the TX line.
 
 # Marlin 3D Printer Firmware
 
