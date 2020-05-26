@@ -6,6 +6,8 @@ Bits and pieces borrowed from the MKS Marlin 2.0 repo: https://github.com/makerb
 
 Current configuration assumes that the TMC2208 drivers are connected to the 2:nd extruder steppers ENABLE, STEP and DIR pins modded to use UART in one-wire-mode per driver with custom cables soldered with a 1K resitor on the TX line.
 
+![Pinout](https://github.com/icewatus/Marlin/blob/2.0.x/docs/mksrobinnano.png)
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
