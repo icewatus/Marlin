@@ -44,6 +44,7 @@
 //#define FLASH_EEPROM_EMULATION
 #define SDCARD_EEPROM_EMULATION
 
+
 //
 // Note: MKS Robin board is using SPI2 interface.
 //
@@ -136,7 +137,7 @@
 //
 // LCD / Controller
 //
-#define BEEPER_PIN                          PC5
+//#define BEEPER_PIN                          PC5
 
 /**
  * Note: MKS Robin TFT screens use various TFT controllers.
@@ -197,13 +198,13 @@
   //#define E4_HARDWARE_SERIAL Serial1
 
   // Unused servo pins may be repurposed with SoftwareSerialM
-  #define X_SERIAL_TX_PIN                   PA3
-  #define Y_SERIAL_TX_PIN                   PA6
-  //#define Z_SERIAL_TX_PIN                 -1
+  #define X_SERIAL_TX_PIN                   PA1
+  #define Y_SERIAL_TX_PIN                   PA1
+  #define Z_SERIAL_TX_PIN                   PA1
   #define E0_SERIAL_TX_PIN                  PA1
   #define X_SERIAL_RX_PIN                   X_SERIAL_TX_PIN
   #define Y_SERIAL_RX_PIN                   Y_SERIAL_TX_PIN
-  //#define Z_SERIAL_RX_PIN                 Z_SERIAL_TX_PIN
+  #define Z_SERIAL_RX_PIN                   Z_SERIAL_TX_PIN
   #define E0_SERIAL_RX_PIN                  E0_SERIAL_TX_PIN
 
   // Reduce baud rate for software serial reliability
