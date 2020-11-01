@@ -120,7 +120,8 @@
 //#define KILL_PIN 						                PA2     // Enable MKSPWC support ROBIN NANO v1.2 ONLY
 //#define KILL_PIN_INVERTING 				          true     // Enable MKSPWC support ROBIN NANO v1.2 ONLY
 
-//#define SERVO0_PIN                          PA8   // Enable BLTOUCH support ROBIN NANO v1.2 ONLY
+// BL Touch
+#define SERVO0_PIN                          PA8   // Enable BLTOUCH support ROBIN NANO v1.2 ONLY
 
 #define LED_PIN                             PB2
 
